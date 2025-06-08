@@ -6,7 +6,7 @@
 </p>
 <img src="assets/anotai.png">
 <p align="center">
-  <a href="#" target="_blank"><strong>🌐 Acesse o Anota Aí</strong></a>
+  <a href="https://anotandobp.vercel.app/" target="_blank"><strong>🌐 Acesse o Anota Aí</strong></a>
 </p>
 
 <p align="center">
