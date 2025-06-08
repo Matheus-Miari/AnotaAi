@@ -4,7 +4,7 @@
   Ferramenta simples e direta para salvar anotações rápidas no ambiente hospitalar.  
   Criado para uso pessoal e entre colegas após a remoção da funcionalidade do sistema oficial.
 </p>
-
+<img src="assets/anotai.png">
 <p align="center">
   <a href="#" target="_blank"><strong>🌐 Acesse o Anota Aí</strong></a>
 </p>
