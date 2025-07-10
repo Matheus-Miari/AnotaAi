@@ -4,7 +4,9 @@
   Ferramenta simples e direta para salvar anotações rápidas no ambiente hospitalar.  
   Criado para uso pessoal e entre colegas após a remoção da funcionalidade do sistema oficial.
 </p>
-<img src="assets/anotai.png" alt="Logo Anota Aí" style="display: block; margin: 0 auto;">
+<img src="assets/anotai.png" alt="print do site" style="display: block; margin: 0 auto;">
+<img src="assets/Screenshot 2025-07-10 174534.png" alt="print dark" style="display: block; margin: 0 auto;">
+<img src="assets/Screenshot 2025-07-10 174551.png" alt="print area de escrita" style="display: block; margin: 0 auto;">
 <p align="center">
   <a href="https://anotandobp.vercel.app/" target="_blank"><strong>🌐 Acesse o Anota Aí</strong></a>
 </p>
