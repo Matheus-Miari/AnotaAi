@@ -500,7 +500,7 @@
 
         // Toggle dark mode (placeholder)
         function toggleDarkMode() {
-            showToast('Modo escuro ativido', 'info');
+            showToast('Modo escuro ativado', 'info');
         }
 
         // Logout function
@@ -534,11 +534,16 @@ function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
 
     const isDark = document.body.classList.contains('dark-mode');
-    const icon = document.querySelector('.btn i');
+    const toggleBtn = document.getElementById('toggleDarkBtn'); // <- ID do botão
+    const icon = toggleBtn.querySelector('i');
+
+    // Atualiza o ícone
     if (icon) {
         icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
     }
 
+    // Atualiza o texto
+    toggleBtn.querySelector('span').textContent = isDark ? 'Modo Claro' : 'Modo Escuro';
+
     showToast(isDark ? 'Modo escuro ativado!' : 'Modo claro ativado!', 'success');
 }
-
