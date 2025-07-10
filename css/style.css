@@ -380,3 +380,119 @@
             to { transform: rotate(360deg); }
         }
     
+/* Modo Escuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #E2E8F0;
+}
+
+/* Texto */
+body.dark-mode .section-title,
+body.dark-mode .form-label,
+body.dark-mode .modal-title {
+    color: var(--secondary);
+}
+
+body.dark-mode .card-title,
+body.dark-mode .card-preview,
+body.dark-mode .form-input,
+body.dark-mode .toast {
+    color: #f1f1f1;
+}
+
+/* Fundo geral dos blocos */
+body.dark-mode .section,
+body.dark-mode .modal-content,
+body.dark-mode .card,
+body.dark-mode .form-input,
+body.dark-mode .editor-container {
+    background-color: #1e1e1e;
+    border-color: #2d2d2d;
+    color: #f1f1f1;
+}
+
+/* Botões */
+body.dark-mode .btn {
+    background-color: #2e2e2e;
+    color: #f1f1f1;
+    border-color: #444;
+}
+
+body.dark-mode .btn-primary {
+    background-color: var(--secondary);
+    color: #fff;
+}
+
+body.dark-mode .btn-primary:hover {
+    background-color: #3a7bd5;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: transparent;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+
+body.dark-mode .btn-secondary:hover {
+    background-color: var(--secondary);
+    color: #fff;
+}
+
+body.dark-mode .btn-danger {
+    background-color: #c53030;
+    color: #fff;
+}
+
+body.dark-mode .btn-danger:hover {
+    background-color: #9b2c2c;
+}
+
+/* Input focus */
+body.dark-mode .form-input:focus,
+body.dark-mode .editor-container:focus-within {
+    border-color: var(--secondary);
+}
+
+/* Toasts */
+body.dark-mode .toast {
+    background-color: #2d3748;
+    color: #f1f1f1;
+}
+
+body.dark-mode .toast.success {
+    background-color: #38a169;
+}
+
+body.dark-mode .toast.error {
+    background-color: #e53e3e;
+}
+
+/* Modal close */
+body.dark-mode .close {
+    color: #aaa;
+}
+
+body.dark-mode .close:hover {
+    color: #fff;
+}
+
+/* Empty State */
+body.dark-mode .empty-state {
+    color: #bbb;
+}
+
+body.dark-mode .empty-state i {
+    color: #444;
+}
+
+/* Editor Quill */
+body.dark-mode .ql-toolbar,
+body.dark-mode .ql-container {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    border-color: #2c2c2c;
+}
+
+body.dark-mode .ql-editor {
+    color: #e0e0e0;
+}
