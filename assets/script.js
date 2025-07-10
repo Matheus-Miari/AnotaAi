@@ -5,7 +5,7 @@
 
         // Standard nursing notes templates
         const standardNotes = [
-             {
+            {
                 id: 3,
                 title: "Admissão de Pronto Atendimento",
                 preview: "Cliente admitido em Box de Medicação. Apresenta-se calmo, consciente, orientado e acompanhado. Sem queixas ou alergias relatadas...",
@@ -300,6 +300,7 @@
                         <i class="fas fa-sticky-note"></i>
                         <h3>Nenhuma anotação pessoal encontrada</h3>
                         <p>Comece criando sua primeira anotação usando o formulário acima.</p>
+                        <div style="font-size: 48px; color: #bbb; margin: 20px 0;">😢</div>
                     </div>
                 `;
                 return;
@@ -399,6 +400,8 @@
                 };
                 notes.push(newNote);
                 showToast('Anotação salva com sucesso!', 'success');
+                // Show happy face when note is saved
+                showToast('😃', 'success');
             }
             
             savePersonalNotes(notes);
@@ -448,7 +451,7 @@
 
         // Delete note
         function deleteNote(noteId) {
-            if (confirm('Tem certeza que deseja excluir esta anotação?')) {
+            if (confirm('Tem certeza que deseja excluir esta anotação? É sua? Se não for, não apague!')) {
                 const notes = getPersonalNotes();
                 const filteredNotes = notes.filter(note => note.id !== noteId);
                 savePersonalNotes(filteredNotes);
@@ -497,7 +500,7 @@
 
         // Toggle dark mode (placeholder)
         function toggleDarkMode() {
-            showToast('Modo escuro será implementado em breve!', 'info');
+            showToast('Modo escuro ativido', 'info');
         }
 
         // Logout function
@@ -538,3 +541,4 @@ function toggleDarkMode() {
 
     showToast(isDark ? 'Modo escuro ativado!' : 'Modo claro ativado!', 'success');
 }
+
