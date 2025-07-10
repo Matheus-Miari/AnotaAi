@@ -168,6 +168,52 @@
 
                 <p>Paciente permanece sob vigilância, com suporte clínico conforme evolução médica.</p>`
             },
+        {
+            id: 10,
+            title: "Evolução de Enfermagem - Admissão",
+            preview: "Paciente admitido consciente, orientado, sinais vitais dentro dos parâmetros. Sem queixas no momento...",
+            content: `<h3>Evolução de Enfermagem - Admissão</h3>
+            <p>Paciente admitido em leito de enfermaria às [HORA], acompanhado de familiar. Apresenta-se consciente, orientado em tempo e espaço, eupneico, afebril, sem queixas álgicas no momento.</p>
+            <p>Realizada verificação de sinais vitais: PA: [ ], FC: [ ], FR: [ ], Temp: [ ]. Saturando [ ]% em ar ambiente.</p>
+            <p>Instalado acesso venoso periférico com jelco nº [ ], em [local], fixado com película estéril. Coletadas amostras laboratoriais conforme prescrição. Pulseira de identificação posicionada.</p>
+            <p>Paciente orientado quanto ao funcionamento da unidade e uso da campainha de chamada. Mantido sob cuidados de enfermagem.</p>`
+        },
+        {
+            id: 11,
+            title: "Evolução de Enfermagem - Pós-procedimento",
+            preview: "Paciente retorna do procedimento em bom estado geral, sinais vitais estáveis, sem queixas de dor...",
+            content: `<h3>Evolução de Enfermagem - Pós-procedimento</h3>
+            <p>Paciente retorna do centro cirúrgico às [HORA], em recuperação anestésica, monitorado. Apresenta-se consciente, orientado, sinais vitais dentro dos parâmetros de normalidade.</p>
+            <p>Curativo cirúrgico em [região], sem sinais de sangramento ativo. Acesso venoso pérvio, infusão de SF 0,9% em gotejamento contínuo.</p>
+            <p>Paciente sem queixas de dor no momento, score de dor = [ ]. Referida náusea leve, sem vômitos. Higiene e conforto realizados. Orientado sobre sinais de alerta. Mantido sob vigilância da equipe de enfermagem.</p>`
+        },
+        {
+            id: 12,
+            title: "Evolução de Enfermagem - Alteração de padrão respiratório",
+            preview: "Paciente apresenta dispneia leve, uso de musculatura acessória, saturação em queda. Equipe médica acionada...",
+            content: `<h3>Evolução de Enfermagem - Alteração Respiratória</h3>
+            <p>Paciente evolui com dispneia aos mínimos esforços, uso de musculatura acessória, FR aumentada ([ ] irpm), saturação de O₂ em [ ]% em ar ambiente.</p>
+            <p>Iniciado O₂ sob cateter nasal 2L/min. Sinais vitais monitorados, posicionamento em semifowler. Equipe médica acionada e orientações seguidas conforme conduta médica.</p>
+            <p>Paciente permanece em observação, reavaliado a cada 30 minutos. Registrado no prontuário e comunicado à enfermagem do plantão seguinte.</p>`
+        },
+        {
+            id: 13,
+            title: "Evolução de Enfermagem - Estabilidade clínica",
+            preview: "Paciente encontra-se estável, aceitando dieta, eliminações presentes e espontâneas...",
+            content: `<h3>Evolução de Enfermagem - Estabilidade Clínica</h3>
+            <p>Paciente encontra-se consciente, orientado, afebril, com sinais vitais dentro dos parâmetros habituais. Refere aceitação da dieta oferecida, eliminações fisiológicas mantidas e espontâneas.</p>
+            <p>Sem queixas de dor ou desconforto no momento. Acesso venoso pérvio, medicações administradas conforme prescrição médica. Curativos avaliados, sem intercorrências. Orientado e colaborativo com a equipe de enfermagem.</p>
+            <p>Paciente em condições estáveis, seguindo em cuidados de rotina da unidade.</p>`
+        },
+        {
+            id: 14,
+            title: "Evolução de Enfermagem - Alta hospitalar",
+            preview: "Paciente recebe alta médica, orientado quanto à medicação, curativos e sinais de alerta...",
+            content: `<h3>Evolução de Enfermagem - Alta Hospitalar</h3>
+            <p>Paciente com alta médica liberada às [HORA]. Apresenta-se em bom estado geral, consciente, orientado, sem queixas de dor. Realizada conferência dos pertences e retirada de acesso venoso periférico.</p>
+            <p>Paciente e acompanhante orientados verbalmente e por escrito quanto à prescrição de medicações, cuidados com o curativo, sinais de alerta e retorno ambulatorial. Entregue receita médica, guia de retorno e orientações.</p>
+            <p>Paciente deixou a unidade de cadeira de rodas, acompanhado por familiar. Alta registrada e prontuário encerrado pela equipe de enfermagem.</p>`
+        }
 
 
         ];
