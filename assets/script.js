@@ -524,4 +524,17 @@
                 closeModal();
             }
         });
-    
+
+        
+        
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+
+    const isDark = document.body.classList.contains('dark-mode');
+    const icon = document.querySelector('.btn i');
+    if (icon) {
+        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+    }
+
+    showToast(isDark ? 'Modo escuro ativado!' : 'Modo claro ativado!', 'success');
+}
