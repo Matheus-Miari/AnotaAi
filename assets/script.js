@@ -5,32 +5,7 @@
 
         // Standard nursing notes templates
         const standardNotes = [
-            {
-                id: 1,
-                title: "Punção de acesso venoso",
-                preview: "Paciente em decúbito dorsal, membro superior (  ). Realizada antissepsia com swab. Puncionado acesso venoso periférico...",
-                content: `<h3>Punção de Acesso Venoso Periférico: </h3>
-                <h4>Procedimento Realizado:</h4>
-                <p>Paciente em decúbito dorsal, membro superior ( ) em extensão. Realizada antissepsia da região com swab. Puncionado acesso venoso periférico com cateter sobre agulha nº ( )G em (  ).</p>
-                
-                <h4>Observações:</h4>
-                <ul>
-                    <li>Procedimento realizado sem intercorrências</li>
-                    <li>Refluxo sanguíneo presente</li>
-                    <li>Fixação adequada</li>
-                    <li>Paciente orientado sobre cuidados</li>
-                </ul>`
-            },
-            {
-                id: 7,
-                title: "Administração de Medicamentos",
-                preview: "Medicamento administrado conforme prescrição médica, sem intercorrências. Paciente orientado...",
-                content: `<h3>Administração de Medicamentos</h3>
-                <p>Acomodado em box (), relizado meta 01, realizado punção venosa com jelco (), medicamento administrado conforme prescrição médica. Paciente orientado quanto à ação e possíveis efeitos colaterais. Sem queixas no momento, sem intercorrências durante o procedimento.</p>
-
-                <p>Desmonstrado uso de campainha.</p>`
-            },
-            {
+             {
                 id: 3,
                 title: "Admissão de Pronto Atendimento",
                 preview: "Cliente admitido em Box de Medicação. Apresenta-se calmo, consciente, orientado e acompanhado. Sem queixas ou alergias relatadas...",
@@ -111,6 +86,31 @@
                 <p>Orientado e demonstrado uso da campainha e do sistema Quality. Reforçada a importância de acionar a equipe sempre que necessário.</p>`
             },
 
+            {
+                id: 1,
+                title: "Punção de acesso venoso",
+                preview: "Paciente em decúbito dorsal, membro superior (  ). Realizada antissepsia com swab. Puncionado acesso venoso periférico...",
+                content: `<h3>Punção de Acesso Venoso Periférico: </h3>
+                <h4>Procedimento Realizado:</h4>
+                <p>Paciente em decúbito dorsal, membro superior ( ) em extensão. Realizada antissepsia da região com swab. Puncionado acesso venoso periférico com cateter sobre agulha nº ( )G em (  ).</p>
+                
+                <h4>Observações:</h4>
+                <ul>
+                    <li>Procedimento realizado sem intercorrências</li>
+                    <li>Refluxo sanguíneo presente</li>
+                    <li>Fixação adequada</li>
+                    <li>Paciente orientado sobre cuidados</li>
+                </ul>`
+            },
+            {
+                id: 7,
+                title: "Administração de Medicamentos",
+                preview: "Medicamento administrado conforme prescrição médica, sem intercorrências. Paciente orientado...",
+                content: `<h3>Administração de Medicamentos</h3>
+                <p>Acomodado em box (), relizado meta 01, realizado punção venosa com jelco (), medicamento administrado conforme prescrição médica. Paciente orientado quanto à ação e possíveis efeitos colaterais. Sem queixas no momento, sem intercorrências durante o procedimento.</p>
+
+                <p>Desmonstrado uso de campainha.</p>`
+            },
             {
                 id: 5,
                 title: "Admissão de Cliente Internado",
