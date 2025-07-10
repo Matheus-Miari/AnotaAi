@@ -464,22 +464,40 @@
         function copyNote(title, content) {
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = content;
-            const textContent = `${title}\n\n${tempDiv.textContent}`;
-            
-            navigator.clipboard.writeText(textContent).then(() => {
-                showToast('Conteúdo copiado para a área de transferência!', 'success');
-            }).catch(() => {
-                // Fallback for older browsers
+
+            // Converte o HTML em texto com quebras de linha
+            const walker = document.createTreeWalker(tempDiv, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, null, false);
+            let result = '';
+
+            while (walker.nextNode()) {
+                const node = walker.currentNode;
+
+                if (node.nodeType === Node.TEXT_NODE) {
+                    result += node.nodeValue;
+                } else if (node.nodeName === 'P' || node.nodeName === 'H3' || node.nodeName === 'H4') {
+                    result += '\n';
+                } else if (node.nodeName === 'LI') {
+                    result += '\n• ';
+                } else if (node.nodeName === 'BR') {
+                    result += '\n';
+                }
+            }
+        
+        const formatted = `${title}\n\n${result.trim()}`;   
+
+            navigator.clipboard.writeText(formatted).then(() => {
+                showToast('Anotação copiada para a área de transferência!', 'success');
+            }).catch(err => {
+                // fallback
                 const textArea = document.createElement('textarea');
-                textArea.value = textContent;
+                textArea.value = formatted;
                 document.body.appendChild(textArea);
                 textArea.select();
                 document.execCommand('copy');
                 document.body.removeChild(textArea);
-                showToast('Conteúdo copiado para a área de transferência!', 'success');
+                showToast('Anotação copiada para a área de transferência (fallback)!', 'success');
             });
         }
-
         // Close modal
         function closeModal() {
             document.getElementById('noteModal').style.display = 'none';
