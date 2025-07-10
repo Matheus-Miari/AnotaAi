@@ -4,7 +4,7 @@
   Ferramenta simples e direta para salvar anotações rápidas no ambiente hospitalar.  
   Criado para uso pessoal e entre colegas após a remoção da funcionalidade do sistema oficial.
 </p>
-<img src="assets/anotai.png">
+<img src="assets/anotai.png" alt="Logo Anota Aí" style="display: block; margin: 0 auto;">
 <p align="center">
   <a href="https://anotandobp.vercel.app/" target="_blank"><strong>🌐 Acesse o Anota Aí</strong></a>
 </p>
@@ -35,20 +35,20 @@ Foi pensado para cobrir uma lacuna no dia a dia hospitalar, permitindo que profi
 ## 🚀 Tecnologias Utilizadas
 
 - 🖥️ **HTML5**  
-- 🎨 **CSS3** (com design moderno e responsivo)  
-- ⚡ **JavaScript** (com localStorage para persistência dos dados)  
+- 🎨 **CSS3** (com design moderno, responsivo e modo escuro)  
+- ⚡ **JavaScript** (com localStorage para persistência dos dados, garantindo salvamento automático e recuperação das anotações)  
 
 ---
 
 ## 📸 Funcionalidades Atuais
 
 - ✅ Área de escrita para anotações rápidas com texto formatado  
-- ✅ Botões funcionais: *COPIAR*, Salvar, Limpar, Exportar, Apagar Anotações  
-- ✅ Armazenamento automático e recuperação das anotações via **localStorage**  
-- ✅ Visual moderno, limpo e acessível para uso em desktop e mobile  
-- ✅ Responsivo com layout adaptado para celulares e tablets  
-- ✅ Organização simples das anotações, permitindo múltiplos registros  
-- ✅ Feedback visual para ações do usuário (ex: confirmação de salvamento)   
+- ✅ Botões funcionais: *COPIAR* (com correção para respeitar parágrafos), Salvar, Limpar, Exportar, Apagar Anotações  
+- ✅ Armazenamento automático e recuperação das anotações via **localStorage**, definido e testado para garantir persistência entre sessões  
+- ✅ Suporte a múltiplas anotações, com aumento do volume e variedade de anotações focadas na área de enfermagem  
+- ✅ Visual moderno, limpo, acessível e com **modo noturno (dark mode)** para conforto em plantões noturnos  
+- ✅ Layout responsivo adaptado para uso em desktop, tablets e celulares  
+- ✅ Feedback visual para ações do usuário (ex: confirmação de salvamento)  
 
 ---
 
@@ -56,21 +56,20 @@ Foi pensado para cobrir uma lacuna no dia a dia hospitalar, permitindo que profi
 
 O layout foi aprimorado com:
 
-- Paleta de cores suave e contrastante para ambientes hospitalares  
-- Tipografia clara e legível  
-- Botões grandes e acessíveis para uso rápido  
-- Áreas delimitadas para anotações e lista de registros  
+- Paleta de cores suave, contrastante e com tema escuro opcional, ideal para ambientes hospitalares e longos períodos de uso  
+- Tipografia clara, legível e confortável para leitura prolongada  
+- Botões grandes, acessíveis e intuitivos para facilitar o uso rápido durante plantões  
+- Áreas bem delimitadas para escrita das anotações e lista organizada dos registros salvos  
 
 ---
 
 ## 🛠️ Próximas Funcionalidades (Roadmap)
 
-- 🌙 **Modo Noturno** para conforto em plantões noturnos  
 - 🔐 **Autenticação simples** para uso seguro e compartilhamento controlado  
-- 🗂️ **Categorias e tags** para organizar anotações por setores ou temas  
+- 🗂️ **Categorias e tags** para organizar anotações por setores, temas ou pacientes  
 - 📥 **Importação de anotações** para sincronização entre dispositivos  
-- 📱 **Aplicativo mobile** com notificações e integração offline  
-- ☁️ **Backup em nuvem** para segurança dos dados  
+- 📱 **Aplicativo mobile** com notificações, modo offline e integração com o sistema hospitalar  
+- ☁️ **Backup em nuvem** para maior segurança e recuperação de dados  
 
 ---
 
@@ -83,8 +82,8 @@ Quer ajudar? Abra uma issue ou envie um pull request!
 
 ## 🔗 Links Úteis
 
-- 🌐 Site:  
-- 🧑‍💻 Desenvolvedor: Matheus Miari
+- 🌐 Site: https://anotandobp.vercel.app/  
+- 🧑‍💻 Desenvolvedor: Matheus Miari  
 - 📩 Contato: matmiari.eng@gmail.com
 
 ---
@@ -93,5 +92,3 @@ Quer ajudar? Abra uma issue ou envie um pull request!
 
 MIT License © 2025 Matheus  
 Use livremente, mas mantenha os créditos.
-
----
