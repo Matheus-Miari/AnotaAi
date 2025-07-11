@@ -101,6 +101,7 @@
             justify-content: center;
             align-items: center;
             background-color: #e55a3a;
+            font-size: 1.4em;
         }
 
         .btn-secondary:hover {
@@ -574,4 +575,23 @@ body.dark-mode .logo-header a{
 body.dark-mode .footer {
     background-color: var(--shadow);
     color: #f1f1f1;
+}
+.slogan-evolucao {
+    font-weight: 500;
+    font-size: 1.4em;
+    color: var(--color-secondary); /* laranja */
+    background-color: var(--color-background); /* ou branco */
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.slogan-evolucao span {
+    font-weight: 700;
 }
