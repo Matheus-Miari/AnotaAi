@@ -89,7 +89,7 @@
             {
                 id: 1,
                 title: "Punção de acesso venoso",
-                preview: "Paciente em decúbito dorsal, membro superior (  ). Realizada antissepsia com swab. Puncionado acesso venoso periférico...",
+                preview: "Paciente em decúbito dorsal, membro superior (  ). Realizada antissepsia com swab. Puncionado acesso venoso periférico..........",
                 content: `<h3>Punção de Acesso Venoso Periférico: </h3>
                 <h4>Procedimento Realizado:</h4>
                 <p>Paciente em decúbito dorsal, membro superior ( ) em extensão. Realizada antissepsia da região com swab. Puncionado acesso venoso periférico com cateter sobre agulha nº ( )G em (  ).</p>
@@ -105,7 +105,7 @@
             {
                 id: 7,
                 title: "Administração de Medicamentos",
-                preview: "Medicamento administrado conforme prescrição médica, sem intercorrências. Paciente orientado...",
+                preview: "Medicamento administrado conforme prescrição médica, sem intercorrências. Paciente orientado.comodado em box (), relizado meta 01...",
                 content: `<h3>Administração de Medicamentos</h3>
                 <p>Acomodado em box (), relizado meta 01, realizado punção venosa com jelco (), medicamento administrado conforme prescrição médica. Paciente orientado quanto à ação e possíveis efeitos colaterais. Sem queixas no momento, sem intercorrências durante o procedimento.</p>
 
@@ -277,10 +277,10 @@
                 <div class="card-preview">${note.preview}</div>
                 <div class="card-actions">
                     <button class="btn btn-primary btn-small" onclick="viewNote(${note.id}, 'standard')">
-                        <i class="fas fa-eye"></i> Ver Completa
+                        Ver Completa
                     </button>
                     <button class="btn btn-secondary btn-small" onclick="copyNote('${note.title}', \`${note.content.replace(/`/g, '\\`')}\`)">
-                        <i class="fas fa-copy"></i> Copiar
+                        Copiar
                     </button>
                 </div>
             `;
@@ -297,7 +297,7 @@
             if (notes.length === 0) {
                 container.innerHTML = `
                     <div class="empty-state">
-                        <i class="fas fa-sticky-note"></i>
+                        
                         <h3>Nenhuma anotação pessoal encontrada</h3>
                         <p>Comece criando sua primeira anotação usando o formulário acima.</p>
                         <div style="font-size: 48px; color: #bbb; margin: 20px 0;">😢</div>
@@ -325,21 +325,21 @@
             card.innerHTML = `
                 <div class="card-title">${note.title}</div>
                 <div class="card-preview">${preview}</div>
-                <div style="font-size: 12px; color: var(--text-light); margin-bottom: 15px;">
+                <div style="font-size: 14px; color: var(--text-light); margin-bottom: 15px;">
                     Criado em: ${new Date(note.createdAt).toLocaleDateString('pt-BR')}
                 </div>
                 <div class="card-actions">
                     <button class="btn btn-primary btn-small" onclick="viewNote('${note.id}', 'personal')">
-                        <i class="fas fa-eye"></i> Ver Completa
+                        Ver Completa
                     </button>
                     <button class="btn btn-secondary btn-small" onclick="editNote('${note.id}')">
-                        <i class="fas fa-edit"></i> Editar
+                        Editar
                     </button>
                     <button class="btn btn-secondary btn-small" onclick="copyNote('${note.title}', \`${note.content.replace(/`/g, '\\`')}\`)">
-                        <i class="fas fa-copy"></i> Copiar
+                        Copiar
                     </button>
                     <button class="btn btn-danger btn-small" onclick="deleteNote('${note.id}')">
-                        <i class="fas fa-trash"></i> Excluir
+                        Excluir
                     </button>
                 </div>
             `;
