@@ -6,7 +6,6 @@
 </p>
 <img src="assets/att (1).png" alt="print do site" style="display: block; margin: 0 auto;">
 <img src="assets/Screenshot 2025-07-11 002238.png" alt="print dark" style="display: block; margin: 0 auto;">
-<img src="assets/Screenshot 2025-07-10 174551.png" alt="print area de escrita" style="display: block; margin: 0 auto;">
 <p align="center">
   <a href="https://anotandobp.vercel.app/" target="_blank"><strong>🌐 Acesse o Anota Aí</strong></a>
 </p>
