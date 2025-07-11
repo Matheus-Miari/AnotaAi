@@ -39,6 +39,9 @@
             color: var(--white);
             padding: 20px 0;
             box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
 
         .header-content {
@@ -552,15 +555,23 @@ body.dark-mode .logo-header a{
     color: white;
     text-align: center;
     padding: 15px 10px;
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 1.4em;
+    font-weight: 300;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer span {
+    font-weight: 900;
 }
 .footer .span-nome {
-    color: var(--primary); 
-    font-size: 1em;
-    background-color: var(--white);
-    padding: 2px 5px;
-    border-radius: 4px;
-    font-weight: bolder;
+    font-weight: 900;
+}
+body.dark-mode .footer {
+    background-color: var(--shadow);
+    color: #f1f1f1;
 }
