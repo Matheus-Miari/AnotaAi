@@ -128,27 +128,6 @@
                 <p>Cliente permanece em vigilância contínua e sob cuidados da equipe multiprofissional.</p>`
             },
             {
-                id: 6,
-                title: "Higiene e conforto",
-                preview: "Realizada higiene corporal completa. Paciente colaborativo durante o procedimento. Trocados lençóis e camisola...",
-                content: `<h3>Cuidados de Higiene e Conforto</h3>
-                <p><strong>Data/Hora:</strong> [DATA] - [HORA]</p>
-                <p><strong>Paciente:</strong> [NOME DO PACIENTE]</p>
-                
-                <h4>Procedimentos Realizados:</h4>
-                <ul>
-                    <li>✓ Higiene corporal completa</li>
-                    <li>✓ Higiene oral</li>
-                    <li>✓ Troca de roupas de cama</li>
-                    <li>✓ Troca de camisola/pijama</li>
-                    <li>✓ Posicionamento adequado no leito</li>
-                    <li>✓ Hidratação da pele</li>
-                </ul>
-                
-                <h4>Observações:</h4>
-                <p>Paciente colaborativo durante os procedimentos. Demonstrou conforto após os cuidados.`
-            },
-            {
                 id: 8,
                 title: "Protocolo de Sepse",
                 preview: "Protocolo de sepse iniciado. Hemoculturas coletadas e antibiótico administrado conforme prescrição...",
@@ -179,15 +158,6 @@
             <p>Paciente orientado quanto ao funcionamento da unidade e uso da campainha de chamada. Mantido sob cuidados de enfermagem.</p>`
         },
         {
-            id: 11,
-            title: "Evolução de Enfermagem - Pós-procedimento",
-            preview: "Paciente retorna do procedimento em bom estado geral, sinais vitais estáveis, sem queixas de dor...",
-            content: `<h3>Evolução de Enfermagem - Pós-procedimento</h3>
-            <p>Paciente retorna do centro cirúrgico às [HORA], em recuperação anestésica, monitorado. Apresenta-se consciente, orientado, sinais vitais dentro dos parâmetros de normalidade.</p>
-            <p>Curativo cirúrgico em [região], sem sinais de sangramento ativo. Acesso venoso pérvio, infusão de SF 0,9% em gotejamento contínuo.</p>
-            <p>Paciente sem queixas de dor no momento, score de dor = [ ]. Referida náusea leve, sem vômitos. Higiene e conforto realizados. Orientado sobre sinais de alerta. Mantido sob vigilância da equipe de enfermagem.</p>`
-        },
-        {
             id: 12,
             title: "Evolução de Enfermagem - Alteração de padrão respiratório",
             preview: "Paciente apresenta dispneia leve, uso de musculatura acessória, saturação em queda. Equipe médica acionada...",
@@ -204,18 +174,7 @@
             <p>Paciente encontra-se consciente, orientado, afebril, com sinais vitais dentro dos parâmetros habituais. Refere aceitação da dieta oferecida, eliminações fisiológicas mantidas e espontâneas.</p>
             <p>Sem queixas de dor ou desconforto no momento. Acesso venoso pérvio, medicações administradas conforme prescrição médica. Curativos avaliados, sem intercorrências. Orientado e colaborativo com a equipe de enfermagem.</p>
             <p>Paciente em condições estáveis, seguindo em cuidados de rotina da unidade.</p>`
-        },
-        {
-            id: 14,
-            title: "Evolução de Enfermagem - Alta hospitalar",
-            preview: "Paciente recebe alta médica, orientado quanto à medicação, curativos e sinais de alerta...",
-            content: `<h3>Evolução de Enfermagem - Alta Hospitalar</h3>
-            <p>Paciente com alta médica liberada às [HORA]. Apresenta-se em bom estado geral, consciente, orientado, sem queixas de dor. Realizada conferência dos pertences e retirada de acesso venoso periférico.</p>
-            <p>Paciente e acompanhante orientados verbalmente e por escrito quanto à prescrição de medicações, cuidados com o curativo, sinais de alerta e retorno ambulatorial. Entregue receita médica, guia de retorno e orientações.</p>
-            <p>Paciente deixou a unidade de cadeira de rodas, acompanhado por familiar. Alta registrada e prontuário encerrado pela equipe de enfermagem.</p>`
         }
-
-
         ];
 
         // Initialize the application
