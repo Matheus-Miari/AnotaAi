@@ -547,3 +547,20 @@ body.dark-mode .logo-header a{
     background-color: transparent;
     background-color: #1a1a1a;
 }
+.footer {
+    background-color: #FF7048;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.footer .span-nome {
+    color: var(--primary); 
+    font-size: 1em;
+    background-color: var(--white);
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
